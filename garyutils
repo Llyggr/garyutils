@@ -12,7 +12,7 @@ function padString (stringInput,desLen,dir)
             elseif dir == "r" or dir == "R" then
                 stringInput = stringInput.." "
             else
-                error("first argument must be 'r' or 'l' to designate which direction it will be padded (left and right)")
+                error("third argument must be 'r' or 'l' to designate which direction it will be padded (left and right)")
             end
         end
     end
