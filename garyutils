@@ -19,3 +19,12 @@ function padString (stringInput,desLen,dir)
 
     return stringInput
 end
+
+function printCentered (stringInput,offset)
+    if offset == nil then offset = 0 end
+    local x,y = term.getCursorPos()
+    local termLength,termHeight = term.getSize()
+
+    term.setCursorPos(math.ceil(termLength/2) - string.len(stringInput)/2 + offset + 1,y)
+    print(stringInput)
+end
