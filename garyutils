@@ -1,0 +1,21 @@
+function padString (stringInput,desLen,dir)
+    --error handling
+    if dir == nil then dir = "l" end
+    if stringInput == nil then error("Must supply garyutils.padString() with a string to pad") end
+    if desLen == nil then error("Must supply garyutils.padString() with a 2nd argument, designating the length of the padded string") end
+
+    --the magic itself
+    if string.len(stringInput) < tonumber(desLen) then
+        for i = 1,tonumber(desLen) - string.len(stringInput),1 do
+            if dir == "l" or dir == "L" then
+                stringInput = " "..stringInput
+            elseif dir == "r" or dir == "R" then
+                stringInput = stringInput.." "
+            else
+                error("first argument must be 'r' or 'l' to designate which direction it will be padded (left and right)")
+            end
+        end
+    end
+
+    return stringInput
+end
