@@ -18,4 +18,4 @@ Prints stringInput centered move to the right (offset) spaces
 Writes stringInput centered move to the right (offset) spaces  
   
 ### combineTableElements(inputTable, sepChar) -  
-Combines elements in a table, where they are combined based on sepChar (ex. sepChar = / inputTable = {"/single/","/dou","ble/","/tr","i","ple/"} becomes {"single","double","triple"})  
+Combines elements in a table, where they are combined based on sepChar (ex. sepChar = "/" inputTable = {"/single/","/dou","ble/","/tr","i","ple/"} becomes {"single","double","triple"})  
