@@ -3,7 +3,7 @@ Utility API for CC: Tweaked to do various misc things.
 
 ## To load garyutils into your project -  
 First, copy the source code and paste it into a file called "garyutils"  
-In a program, preferably in startup, run os.loadAPI("garyutils")  
+In a program, preferably in startup, run require("garyutils")  
 Use garyutils.(insert function name here) whenever necessary  
   
 ## Usage -  
