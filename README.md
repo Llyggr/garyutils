@@ -12,10 +12,10 @@ Adds (desLen - length of stringInput) spaces to either the left or right (dir = 
 Returns the padded string  
   
 ### printCentered(stringInput, offset) -  
-Prints stringInput centered move to the right (offset) spaces  
+Prints stringInput centered moved to the right (offset) spaces  
   
 ### writeCentered(stringInput, offset) -  
-Writes stringInput centered move to the right (offset) spaces  
+Writes stringInput centered moved to the right (offset) spaces  
   
 ### combineTableElements(inputTable, sepChar) -  
 Combines elements in a table, where they are combined based on sepChar (ex. sepChar = "/" inputTable = {"/single/","/dou","ble/","/tr","i","ple/"} becomes {"single","double","triple"})  
